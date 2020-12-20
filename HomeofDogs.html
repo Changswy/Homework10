@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./HomeofDogs.css">
+</head>
+<body>
+		<script type="text/javascript" src="./HomeofDogs.js"></script>
+		<div class="top">
+
+			<img src="image/icon_logo.png" alt="" class="logo">
+			
+			<a href="#"  class="top2">加入我们</a>
+			<a href="#" class="top2">查看订单</a>
+
+			<div class="form">
+				<form>
+					<input type = "text" id = "textInput" >
+					<input type = "button"  value = "搜索" onclick ="open()">
+				</form>
+			</div>
+			
+
+		</div>
+		<script type="text/javascript">
+			var id_1 = document.getElementById("textInput");
+			function open(){
+				if(id_1.value == "Dogs"){
+					window.open("https://www.baidu.com/");
+				}
+			}
+		</script>
+		<div class="nav">
+			<ul  class="box1" >
+				<li>
+					<a href="#"  id="box1">首页</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">我要寄送</a>
+				</li>
+			
+				<li >
+					<a href="#"  id="box1">我想收养</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">商品推荐</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">汪汪专区</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">喵喵专区</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">寄养指南</a>
+				</li>
+
+				<li >
+					<a href="#"  id="box1">服务推荐</a>
+				</li >
+
+				<li >
+					<a href="#"  id="box1">成为寄养家庭</a>
+				</li >
+
+			</ul>
+		</div>
+
+		<div class="banner">
+			<img src="image/xiaogou.png" alt="">
+		</div>
+
+		<div class="box">
+		<h2>用户登录</h2>
+			 
+		<div class="input_box">
+			<input id="uname" type="text" name="user" onfocus="Chinese()" onblur="Donot()">
+		</div>
+
+		<div id="error_box">  </div>
+
+		<div class="input_box">
+			<input id="upass" type="password" name="psw"  onfocus="Atleast()" onblur="DonotYet()">
+		</div>
+
+		<div id="error_box1">  </div>
+
+		<div class="input_box">
+			 <input id = "progr" type="button" class="btn btn-primary" value = "立即登录" onclick="prog()">
+		</div>
+
+		</div>
+
+		
+		<div id="kinds"><p>请挑选您要寄养的品种</p></div>
+		
+		<div class="mostBox_1">
+		<dl>
+			<dt><p>大型犬</p><input type="checkbox" id="checkAll" /><label>全选</label></dt>
+			<dd>
+				<p><input type="checkbox" name="item" /><label>阿拉斯加</label></p>
+				<p><input type="checkbox" name="item" /><label>德国牧羊犬</label></p>
+				<p><input type="checkbox" name="item" /><label>边境牧羊犬</label></p>
+				<p><input type="checkbox" name="item" /><label>萨摩耶</label></p>
+				<p><input type="checkbox" name="item" /><label>哈士奇</label></p>
+				<p><input type="checkbox" name="item" /><label>拉布拉多</label></p>
+			</dd>
+		</dl>
+		</div>
+		
+		<div class="mostBox_2">
+		<dl>
+			<dt><p>小型犬</p><input type="checkbox" id="checkAll" /><label>全选</label></dt>
+			<dd>
+				<p><input type="checkbox" name="item" /><label>泰迪</label></p>
+				<p><input type="checkbox" name="item" /><label>博美</label></p>
+				<p><input type="checkbox" name="item" /><label>贵宾犬</label></p>
+				<p><input type="checkbox" name="item" /><label>雪纳瑞</label></p>
+				<p><input type="checkbox" name="item" /><label>西施犬</label></p>
+				<p><input type="checkbox" name="item" /><label>约克夏犬</label></p>
+			</dd>
+		</dl>
+		</div>
+
+		
+</body>
+</html>
+
+
+
