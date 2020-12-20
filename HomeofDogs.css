@@ -1,0 +1,237 @@
+			*{
+       		 padding: 0;
+        	 margin: 0;
+      		}
+
+	        body,
+			dl,
+			dt,
+			dd,
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				font-family: Tahoma;
+				font-size: 12px;
+			}
+			
+			label,
+			input,
+			a {
+				vertical-align: middle;
+			}
+			
+			label {
+				padding: 0 10px 0 5px;
+			}
+			
+			a {
+				color: #09f;
+				text-decoration: none;
+			}
+			
+			a:hover {
+				color: red;
+			}
+			
+			dl {
+				width: 120px;
+				margin: 10px auto;
+				padding: 10px 5px;
+				border: 1px solid #666;
+				border-radius: 5px;
+				background: #fafafa;
+			}
+			
+			dt {
+				padding-bottom: 10px;
+				border-bottom: 1px solid #666;
+			}
+			
+			dt label {
+				font-weight: 700;
+			}
+			
+			p {
+				margin-top: 10px;
+			}
+
+			#logo{
+				height:100px;
+			}
+			.top{
+				width: 1000px;
+				line-height: 1.5em;
+				border-top: 5px solid #FBC02D;
+				margin-top: 1px;
+			}
+
+			.top2{
+				height: 10px;
+				font-size: 12px;
+				float: right;
+				color: black;
+				display: inline-block;
+				font-weight: normal;
+			}
+			
+			.box1{
+				width: 1000px;
+				border-top: 1px solid #d6d6d6;
+				color: #111;
+				margin: 0 auto;
+				font-family: '微软雅黑'；
+			}
+
+			body{
+			 background: url('image/body_bg.gif') repeat-x; 
+			 font-family: "Microsoft YaHei";
+			 font-weight: bold;
+			}
+
+			li{
+				
+				height: 50px;
+				line-height: 50px;
+				margin: 0px;
+				padding: 0px;
+				display: inline-block;
+				font: bold 15px;
+				float: left;
+			}
+			
+			a{
+				text-decoration: none;
+				padding: 15px 15px 0px;
+				float: left;
+				display: inline-block;
+				text-align: center;
+				margin: auto;
+
+			}
+
+			.search {
+	        	float: right;
+	      	}
+
+	     	.search > input {
+	       		width: 380px;
+	        	border: 1px solid #b6b6b6;
+	       		position: relative;
+				top: 50px;
+				right: 0px;
+				left: 200px;
+	       		margin:10px 0px 0px 10px;
+	      }
+			
+			div{margin:auto;}
+
+			#box1{
+				height: 50px;
+				width: 80px;
+				padding: 5px 15px;
+				color: black;
+			}
+
+			#box1:hover{
+				height: 50px;
+				width: 80px;
+				padding: 5px 15px;
+				font-size: 15px;
+				color: #fff;
+				background-color: #FBC02D;
+			}
+
+			.nav {
+	        	width: 1000px;
+	        	height: 60px;
+	        	margin: 0 auto;
+	      	}
+
+
+
+			.logo{
+				height: 69px;
+				width: 309px;
+				padding: 10px 0px;
+
+			}
+			.banner{
+				text-align: center;
+				background-color: #f7f7f7;
+			}
+
+			.banner_1{
+				width: 500px;
+			}
+
+			.form{
+				float: right;
+				margin-top: 12px;
+			}
+
+			*{
+			 margin: 0;
+			 padding: 0;
+			 font-family: 微软雅黑;
+			 font-size: 12px;
+			}
+			.box{
+			 width: 390px;
+			 height: 320px;
+			 border: solid 1px #ddd;
+			 background: #FFF;
+			 float:left;
+			 margin-left: 316px;
+			 text-align: center;
+			}
+			.box h2{
+			 font-weight: normal;
+			 color:#666;
+			 font-size: 16px;
+			 line-height: 40px;
+			 overflow: hidden;
+			 text-align: center;
+			 border-bottom: solid 1px #ddd;
+			 background: #f7f7f7;
+			}
+			.input_box{
+			 width:350px;
+			 padding-top: 25px;
+			 padding-bottom: 15px;
+			 margin: 0 auto;
+			 overflow: hidden;
+			}
+			.btn{
+			  background-color: #FBC02D;
+			  height: 40px;
+			  width:100px;
+			  color: white;
+			  border: none; 
+			}
+			.btn:hover{
+			  background-color: #FBC02D;
+			}
+			.btn:active{
+			  background-color: #FBC02D;
+			}
+			#box{
+			  color: #FBC02D;
+			}
+			.mostBox_1{
+				float: right;
+				margin-right: 315px;
+				margin-top: 40px;
+			}
+			.mostBox_2{
+				float: right;
+				margin-right: 200px;
+			}
+			#kinds{
+				float: left;
+				margin-left:210px;
+				margin-top: 15px;
+				color: #FBC02D;
+			}
